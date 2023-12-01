@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="Joergensburg_Museum.css">
+<title>Contact the Joergensburg Museum</title> 
+<meta charset="utf-8"> 
+</head>
+<body>
+<div id="content">
+<div id="wrapper">
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <nav>
+	<ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="exhibits.html">Exhibits</a>
+		<ul>
+			<li><a href="ancient_egypt.html">Ancient Egypt</a></li>
+			<li><a href="medieval.html">Medieval Age</a></li>
+			<li><a href="renaissance.html">Renaissance</a></li>
+			<li><a href="early_americas.html">Early Americas</a></li>			
+			<li><a href="industrial_age.html">Industrial Age</a></li>
+		</ul>
+	  </li>
+	  <li><a href="calendar.html">Events Calendar</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="contact.html">Contact</a></li>
+	 </ul>
+    </nav>
+  <main> 
+	<h2>Have Any Questions? Contact Us</h2>
+    <form method="post"
+	action="contact feedback.html">
+	<legend>Contact Us</legend>
+	<fieldset>
+	<label for="Salutation">Salutation:</label>
+	<select name="Salutation" id="Salutation" required tabindex="1">
+		<option value="Mr.">Mr.</option>
+		<option value="Mrs.">Mrs.</option>
+		<option value="Ms.">Ms.</option>
+		<option value="other">other</option>
+	</select>
+	<label for="myFName">First Name:</label>
+	<input type="text" name="myFName" id="myFName" placeholder="Your First Name" required tabindex="2">
+	<label for="myLName">Last Name:</label>
+	<input type="text" name="myLName" id="myLName" placeholder="Your Last Name" required tabindex="3">
+	<label for="myEmail">E-mail:</label>
+	<input type="text" name="myEmail" id="myEmail" placeholder="email@site.com" required tabindex="4" accesskey="E">
+	<label for="pnum">Phone Number:</label>
+	<input type="text" name="pnum" id="pnum" placeholder="(123) 456-7890" required tabindex="5">
+	<label for="request">How can we help you:</label>
+	<select name="request" id="Request" required tabindex="1">
+		<option value="Questions">Questions about the Museum</option>
+		<option value="Schedule">Schedule a Visit</option>
+		<option value="Field Trip">Schedule a Field Trip</option>
+		<option value="other">other</option>
+	</select>
+	<label for="myQuestions">Any specific requests/questions?:</label>
+	<textarea name="myQuestions" id="myQuestions" rows="2" cols="20" tabindex="11">
+	</textarea>
+	<label for="emreply">Please check here if you wish to receive an e-mail reply:</label>
+	<input type="checkbox" name="emreply" id="emreply" tabindex="12">
+	</fieldset>
+	<input type="submit" value="Submit" tabindex="13"> 
+</form>
+</div>
+</div>
+</body>
+<footer>
+<small><i><a href="mailto:nigeljosh.ting@laverne.edu"> JoshT@laverne.edu</a></i></small>
+</footer>
+</html>
